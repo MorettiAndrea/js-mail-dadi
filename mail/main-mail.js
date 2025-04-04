@@ -9,5 +9,10 @@ for (let i = 0; i < emailList.length && emailCheck === false; i++) {
   }
 }
 
+if (emailCheck === true) {
+  alert("Benvenuto!");
+} else if (emailCheck === false) {
+  alert("email errata");
+}
 console.log(emailCheck);
 console.log(emailInput);

@@ -7,7 +7,10 @@ for (let i = 0; i < emailList.length && emailCheck === false; i++) {
   if (emailInput === emailList[i]) {
     emailCheck = true;
   }
+  console.log(emailCheck);
+  if ((emailCheck = true)) {
+    console.log("Benveuto");
+  }
 }
 
-console.log(emailCheck);
 console.log(emailInput);
